@@ -273,7 +273,7 @@ open class SocketEngine:
             urlWebSocket.scheme = "wss"
         } else {
             urlPolling.scheme = "http"
-            urlWebSocket.scheme = "ws"
+            urlWebSocket.scheme = "wss"
         }
 
         if let connectParams = self.connectParams {
